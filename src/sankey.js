@@ -238,7 +238,7 @@ export default function() {
             i;
 
         // Push any overlapping nodes down.
-        nodes.sort(ascendingBreadth);
+        // nodes.sort(ascendingBreadth);
         for (i = 0; i < n; ++i) {
           node = nodes[i];
           dy = y - node.y0;
